@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/city_id_edittext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="输入城市ID"
+        android:inputType="number"
+        android:maxLines="1"
+        android:imeOptions="actionDone"
+        android:text="101010100"/>
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询" />
+</LinearLayout>
+    <Button
+        android:id="@+id/favorite_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="收藏的城市" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/pic1" />
+    <TextView
+        android:id="@+id/weather_data_textview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/refresh_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="刷新" />
+    <TextView
+        android:id="@+id/liebiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="left"
+        android:text="省/市列表"
+        />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>

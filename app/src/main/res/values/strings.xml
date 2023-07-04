@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">计科2002 严云天 天气</string>
+    <string name="title_activity_childcity">选择市/区</string>
+    <string name="Favorite">收藏的市/区</string>
+</resources>
